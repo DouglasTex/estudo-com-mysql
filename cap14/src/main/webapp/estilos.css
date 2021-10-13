@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+body {
+	width: 20%;
+	max-width: 800px;
+	margin: 100px;
+	margin-top: 5%;
+	line-height: normal;
+	font-family: sans-serif;
+}
+
+main {
+	background: #00000050;
+	max-width: 800px;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.incluir {
+	width: 300px;
+	text-align: left;
+}
+
+.excluir {
+	width: 600px;
+	text-align: center;
+}

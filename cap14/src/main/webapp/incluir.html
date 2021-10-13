@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1">
+	<title>Cadastro de Atrativos</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body >
+<main class="incluir">
+	<form action="http://localhost:8080/cap14/ServletAtrativo" method="get">
+		<b>Entre com os dados do atrativo:</b>
+		<table>
+			<tr>
+				<td><b>Nome:</b></td><td><input type="text" size="30" name="p_nome"></td>
+			</tr>
+			<tr>
+				<td><b>Cidade:</b></td><td><input type="text" size="30" name="p_cidade"></td>
+			</tr>
+			<tr>
+				<td><b>Estado:</b></td><td><input type="text" size="2" name="p_estado"></td>
+			</tr>
+			<tr>
+				<td><b>Descrição:</b></td><td><input type="text" size="50" name="p_descricao"></td>
+			</tr>
+		</table>
+		<br>
+		<input type="submit" value="Salvar">
+		<input type="reset" value="Limpar">
+	</form>
+</main>
+</body>
+</html>
